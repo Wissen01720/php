@@ -1,0 +1,17 @@
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+    display: none;
+}
+
+#table
+{
+    width: auto;
+    border-collapse: collapse;
+
+}
+#fin
+{
+    width: 50px;
+    height: auto;
+}

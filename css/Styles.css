@@ -1,0 +1,40 @@
+/*---- Paginador ----*/
+.paginador ul{
+    padding: 15px;
+    list-style: none;
+    background: #fff;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+.paginador a, .pageSelected{
+    color:#3197B6;
+    border: 1px solid #ddd;
+    padding: 5px;
+    display: inline-block;
+    font-size: 14px;
+    text-align: center;
+    width: 35px;
+}
+.paginador a:hover {
+    background: #ddd;
+}
+.pageSelected{
+    color: #fff;
+    background: #adb5bd;
+    border: 1px solid #adb5bd;
+}
+
+ /*---- tabla ----*/
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#table 
+{
+    width: auto;
+    border-collapse: collapse;
+}
+
